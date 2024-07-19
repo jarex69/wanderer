@@ -1,0 +1,105 @@
+@import 'tailwindcss/utilities';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+.btn-primary {
+    @apply h-10 text-white rounded-lg px-4 py-2 bg-primary font-semibold transition-all hover:bg-primary-hover focus:ring-4 ring-input-ring
+}
+
+.btn-large {
+    @apply h-12 leading-8
+}
+
+.btn-secondary {
+    @apply rounded-lg px-4 py-2 border border-input-border-focus font-medium transition-all hover:bg-secondary-hover focus:ring-4 ring-input-ring
+}
+
+.btn-danger {
+    @apply h-10 text-white rounded-lg px-4 py-2 bg-red-500 font-semibold transition-all hover:bg-red-600 focus:ring-4 ring-red-100
+}
+
+.btn-disabled {
+    @apply bg-menu-item-background-hover border-none text-gray-500 hover:bg-menu-item-background-hover
+}
+
+.btn-icon {
+    @apply rounded-full aspect-square h-8 text-lg hover:bg-secondary-hover focus:ring-4 ring-input-ring transition-colors;
+}
+
+.tab {
+    @apply p-4 rounded-t-lg border border-transparent
+}
+
+.tab:hover {
+    @apply border-menu-item-background-hover
+}
+
+.tab-active:hover {
+    @apply bg-transparent
+}
+
+.tooltip {
+    position: relative;
+    z-index: 10;
+}
+
+.tooltip:before,
+.tooltip:after {
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+
+    transform: translate3d(0, -10px, 0);
+    transition: all .15s ease-in-out;
+}
+
+.tooltip:before {
+    background: rgba(36, 39, 52, 0.75);
+    border-radius: 4px;
+    color: #fff;
+    content: attr(data-title);
+    font-size: 14px;
+    padding: 6px 10px;
+    top: 24px;
+    white-space: nowrap;
+}
+
+.tooltip:hover:after,
+.tooltip:hover:before {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.spinner {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-top: 6px;
+}
+
+.spinner:after {
+    content: " ";
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: spinner 1.2s linear infinite;
+}
+
+.spinner-dark:after {
+    border: 6px solid rgba(var(--primary));
+    border-color: rgba(var(--primary)) transparent rgba(var(--primary)) transparent;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
