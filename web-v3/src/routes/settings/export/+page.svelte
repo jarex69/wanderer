@@ -123,7 +123,7 @@
             }
 
             const blob = await zip.generateAsync({ type: "blob" });
-            saveAs(blob, `wanderer-export-${Date.now()}.zip`);
+            saveAs(blob, `VisitGlacensis.pl-export-${Date.now()}.zip`);
         } catch (e) {
             console.error(e);
             show_toast({
@@ -136,7 +136,7 @@
 </script>
 
 <svelte:head>
-    <title>{$_("settings")} | wanderer</title>
+    <title>{$_("settings")} | VisitGlacensis.pl</title>
 </svelte:head>
 <main>
     <Settings selected={2}>

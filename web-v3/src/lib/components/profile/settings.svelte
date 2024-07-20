@@ -8,7 +8,7 @@
         { text: $_("my-account"), value: "/settings/account" },
         { text: $_("display"), value: "/settings/display" },
         { text: `${$_("import")}/${$_("export")}`, value: "/settings/export" },
-        { text: $_('help'), value: "https://wanderer.to" },
+        { text: $_('help'), value: "https://VisitGlacensis.pl.to" },
     ];
 
     function handleItemClick(item: DropdownItem) {

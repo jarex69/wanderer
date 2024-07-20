@@ -33,7 +33,7 @@
 </script>
 
 <svelte:head>
-    <title>{$_("trail", { values: { n: 2 } })} | wanderer</title>
+    <title>{$_("trail", { values: { n: 2 } })} | VisitGlacensis.pl</title>
 </svelte:head>
 
 <main

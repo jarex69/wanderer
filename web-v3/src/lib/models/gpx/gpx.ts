@@ -7,7 +7,7 @@ import Waypoint from './waypoint';
 
 const defaultAttributes = {
   version: '1.1',
-  creator: 'wanderer',
+  creator: 'VisitGlacensis.pl',
   xmlns: 'http://www.topografix.com/GPX/1/1',
   'xmlns:xsi': 'http://www.w3.org/2001/XMLSchema-instance',
   'xsi:schemaLocation':

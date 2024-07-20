@@ -71,7 +71,7 @@
 </script>
 
 <svelte:head>
-    <title>Home | wanderer</title>
+    <title>Home | VisitGlacensis.pl</title>
 </svelte:head>
 
 <section
@@ -82,7 +82,7 @@
         class="flex flex-col justify-center gap-8 max-w-md mx-8 sm:mx-auto mt-0 lg:-mt-24 md:mt-24"
     >
         <h2 class="text-5xl sm:text-6xl md:text-7xl font-bold">
-            {$_("welcome_to")} <span class="-tracking-[0.075em]">wanderer</span>
+            {$_("welcome_to")} <span class="-tracking-[0.075em]">VisitGlacensis.pl</span>
         </h2>
         <h5>
             {$_("hero_section_0_text")}
@@ -114,7 +114,7 @@
                     style="max-width: min(450px, 100%)"
                     class="rounded-full aspect-square"
                     src="/imgs/default_thumbnail.webp"
-                    alt="Empty State showing a wanderer going into the distance"
+                    alt="Empty State showing a VisitGlacensis.pl going into the distance"
                 />
             </div>
         {/if}
