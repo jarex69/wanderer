@@ -114,7 +114,7 @@
                     style="max-width: min(450px, 100%)"
                     class="rounded-full aspect-square"
                     src="/imgs/default_thumbnail.webp"
-                    alt="Empty State showing a VisitGlacensis.pl going into the distance"
+                    alt="Empty State showing a Wanderer going into the distance"
                 />
             </div>
         {/if}

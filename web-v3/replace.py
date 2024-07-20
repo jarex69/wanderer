@@ -38,4 +38,4 @@ def replace_in_files(directory, old_word, new_word):
     print(f"Zmodyfikowanych plików: {modified_count}")
 
 # Użycie funkcji
-replace_in_files('src', 'wanderer', 'VisitGlacensis.pl')
+replace_in_files('src',  'VisitGlacensis.pl' , 'wanderer')

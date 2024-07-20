@@ -8,7 +8,7 @@
         style="width: {width}px"
         class="rounded-full aspect-square"
         src="/imgs/empty_state.png"
-        alt="Empty State showing a VisitGlacensis.pl going into the distance"
+        alt="Empty State showing a Wanderer going into the distance"
     />
 
     <h3 class="text-2xl font-semibold text-center">{$_("no-results")}</h3>

@@ -13,12 +13,12 @@
         <h5 class="font-semibold">Resources</h5>
         <ul class="mt-4 text-sm">
             <li>
-                <a href="https://VisitGlacensis.pl.to/getting-started/installation/"
+                <a href="https://wanderer.to/getting-started/installation/"
                     >{$_("documentation")}</a
                 >
             </li>
             <li>
-                <a href="/VisitGlacensis.pl.to/api-reference/auth"
+                <a href="/wanderer.to/api-reference/auth"
                     >{$_("api-documentation")}</a
                 >
             </li>
@@ -27,21 +27,21 @@
         </ul>
     </div>
     <div>
-        <h5 class="font-semibold">VisitGlacensis.pl</h5>
+        <h5 class="font-semibold">Oparte na projekcie <b>wanderer</b></h5>
         <ul class="mt-4 text-sm">
             <li>
-                <a href="https://VisitGlacensis.pl.to">{$_("about")}</a>
+                <a href="https://wanderer.to">{$_("about")}</a>
             </li>
             <li>
-                <a href="https://VisitGlacensis.pl.to/#features">{$_("features")}</a>
+                <a href="https://wanderer.to/#features">{$_("features")}</a>
             </li>
             <li>
-                <a href="https://VisitGlacensis.pl.to/getting-started/changelog/"
+                <a href="https://wanderer.to/getting-started/changelog/"
                     >{$_("changelog")}</a
                 >
             </li>
             <li>
-                <a href="https://github.com/Flomp/VisitGlacensis.pl/blob/main/LICENSE"
+                <a href="https://github.com/Flomp/wanderer/blob/main/LICENSE"
                     >{$_("license")}</a
                 >
             </li>
@@ -50,12 +50,12 @@
     <div>
         <h5 class="font-semibold">Community</h5>
         <ul class="mt-4 text-sm">
-            <li><a href="https://github.com/Flomp/VisitGlacensis.pl">GitHub</a></li>
+            <li><a href="https://github.com/Flomp/wanderer">GitHub</a></li>
             <li>
-                <a href="https://github.com/Flomp/VisitGlacensis.pl/issues">Issues</a>
+                <a href="https://github.com/Flomp/wanderer/issues">Issues</a>
             </li>
             <li>
-                <a href="https://github.com/Flomp/VisitGlacensis.pl/pulls"
+                <a href="https://github.com/Flomp/wanderer/pulls"
                     >{$_("contribute")}</a
                 >
             </li>
