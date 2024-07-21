@@ -210,7 +210,7 @@
 </script>
 
 <svelte:head>
-    <title>{$_("list", { values: { n: 2 } })} | Wanderer</title>
+    <title>{$_("list", { values: { n: 2 } })} | Trasy VisitGlacensis.pl</title>
 </svelte:head>
 <main
     class="grid grid-cols-1 md:grid-cols-[400px_1fr] gap-4 lg:gap-8 max-w-7xl mx-4 md:mx-auto"

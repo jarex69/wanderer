@@ -10,7 +10,7 @@
         <LogoTextLightWithVersion></LogoTextLightWithVersion>
     </div>
     <div>
-        <h5 class="font-semibold">Resources</h5>
+        <h5 class="font-semibold">Zasoby</h5>
         <ul class="mt-4 text-sm">
             <li>
                 <a href="https://wanderer.to/getting-started/installation/"
@@ -27,7 +27,7 @@
         </ul>
     </div>
     <div>
-        <h5 class="font-semibold">Oparte na projekcie <b>wanderer</b></h5>
+        <h5 class="font-semibold">Aplikacja oparta na projekcie <b>wanderer</b></h5>
         <ul class="mt-4 text-sm">
             <li>
                 <a href="https://wanderer.to">{$_("about")}</a>
@@ -48,7 +48,7 @@
         </ul>
     </div>
     <div>
-        <h5 class="font-semibold">Community</h5>
+        <h5 class="font-semibold">Społeczność</h5>
         <ul class="mt-4 text-sm">
             <li><a href="https://github.com/Flomp/wanderer">GitHub</a></li>
             <li>

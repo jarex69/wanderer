@@ -7,6 +7,6 @@
 <TrailInfoPanel trail={$trail} mode="overview"></TrailInfoPanel>
 
 <svelte:head>
-    <title>{$trail.name} | {$_("trail", { values: { n: 1 } })} | VisitGlacensis.pl</title
+    <title>{$trail.name} | {$_("trail", { values: { n: 1 } })} | Trasy VisitGlacensis.pl</title
     >
 </svelte:head>

@@ -75,7 +75,7 @@
 </script>
 
 <svelte:head>
-    <title>{$_("login")} | Wanderer</title>
+    <title>{$_("login")} | Trasy VisitGlacensis.pl</title>
 </svelte:head>
 <main class="flex justify-center">
     <form

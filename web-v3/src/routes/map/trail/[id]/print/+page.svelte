@@ -449,7 +449,7 @@
 </script>
 
 <svelte:head>
-    <title>{$_("print")} | VisitGlacensis.pl</title>
+    <title>{$_("print")} | Trasy VisitGlacensis.pl</title>
 </svelte:head>
 
 <main

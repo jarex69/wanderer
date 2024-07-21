@@ -309,7 +309,7 @@
 </script>
 
 <svelte:head>
-    <title>{$_("map")} | VisitGlacensis.pl</title>
+    <title>{$_("map")} | Trasy VisitGlacensis.pl</title>
 </svelte:head>
 <main class="grid grid-cols-1 md:grid-cols-[400px_1fr]">
     <div

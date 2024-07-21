@@ -133,7 +133,7 @@ export async function fromFIT(fitData: ArrayBuffer) {
                 name: "",
                 desc: "",
                 time: data.activity?.timestamp ?? new Date(),
-                keywords: "VisitGlacensis.pl"
+                keywords: "Trasy VisitGlacensis.pl"
             },
             trk: [
                 new Track({
@@ -160,7 +160,7 @@ export function fromGeoJSON(geoJson: Feature | FeatureCollection) {
             name: "",
             desc: "",
             time: new Date(),
-            keywords: "VisitGlacensis.pl"
+            keywords: "Trasy VisitGlacensis.pl"
         },
         trk: [],
         wpt: []

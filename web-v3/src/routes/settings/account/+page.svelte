@@ -146,7 +146,7 @@
 </script>
 
 <svelte:head>
-    <title>{$_("settings")} | VisitGlacensis.pl</title>
+    <title>{$_("settings")} | Trasy VisitGlacensis.pl</title>
 </svelte:head>
 <main>
     {#if $currentUser}

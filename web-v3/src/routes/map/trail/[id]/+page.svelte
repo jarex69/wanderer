@@ -13,7 +13,7 @@
 </script>
 
 <svelte:head>
-    <title>{$trail.name} | {$_("map")} | VisitGlacensis.pl</title>
+    <title>{$trail.name} | {$_("map")} | Trasy VisitGlacensis.pl</title>
 </svelte:head>
 <main class="grid grid-cols-1 md:grid-cols-[458px_1fr] gap-x-1 gap-y-4">
     <TrailInfoPanel trail={$trail} {markers}></TrailInfoPanel>
